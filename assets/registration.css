@@ -1,0 +1,158 @@
+.inscription-modal {
+    background-color: transparent;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    height: 70vh;
+    display: flex;
+}
+
+.inscription-left {
+    background-color: lightgray;
+    border: 1px lightgray solid;
+    border-radius: 10px 0 0 10px;
+    width: 20%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.inscription-left h1 {
+    font-size: clamp(1.2rem, 2vw, 2rem);
+}
+
+.inscription-left p {
+    justify-content: justify;
+}
+
+.inscription-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+    width: 100%;
+    margin-right: auto;
+    /* flex-wrap: wrap; */
+}
+
+.form-fields {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+    /* adaptatif */
+    gap: 10vw;
+}
+
+@media (min-width: 1300px) {
+    .form-fields {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        justify-content: center;
+        gap: 120px;
+    }
+}
+
+.field-label {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 50px;
+}
+
+.field-input {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 50px;
+}
+
+.field-input * {
+    padding: 10px;
+    height: 18px;
+}
+
+.field-label * {
+    padding: 10px;
+}
+
+.gender-choices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.gender-choices label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #888;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.gender-choices label:hover {
+    background-color: #f0f0f0;
+}
+
+.gender-bullet:checked + label {
+    background-color: #4CAF50;
+    color: white;
+    border-color: #4CAF50;
+}
+
+.gender-choices div {
+    display: flex;
+    align-items: center;
+}
+
+.field-input input {
+    background-color: #DCDCDC99;
+    border: lightgray 1px solid;
+}
+
+.field-input select {
+    border: lightgray 1px solid;
+    padding: 10px;
+    width: 100px;
+}
+
+.gender-bullet {
+    display: none;
+}
+
+.inscription-submit {
+    width: 15%;
+    background-color: lightgray;
+    border: 1px lightgray solid;
+    border-radius: 0 10px 10px 0;
+    font-size: x-large;
+}
+
+.inscription-submit:hover {
+    background-color: gray;
+    border-color: #888;
+    color: white;
+    cursor: pointer;
+}
+
+.inscription-submit:active {
+    border: 1px solid black;
+}
+
+
+
