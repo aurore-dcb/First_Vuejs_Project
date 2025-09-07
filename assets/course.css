@@ -1,0 +1,38 @@
+.wrapper {
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    /* border: 1px solid lightgray; */
+}
+
+.course-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    /* margin-top: 50px; */
+}
+
+.features {
+    border: 1px solid lightgray;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+}
+
+.upload {
+    border: solid 1px black;
+    width: auto;
+    height: 20px;
+    text-align: center;
+}
+
+.upload:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.upload a {
+    text-decoration: none;
+    color: black;
+}

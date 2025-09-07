@@ -1,14 +1,13 @@
 body {
     margin: 0;
-    background-color: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
 }
 
 nav {
     display: flex;
     background-color: white;
     height: 70px;
-    border-bottom: 1px solid lightgray;
     padding: 0 20px;
     justify-content: flex-end;
     align-items: center;
@@ -39,7 +38,8 @@ nav {
 }
 
 .router-link-exact-active {
-    color: #007BFF;
+    color: #00561b;
+    font-weight: bold;
 }
 
 .nav-logo {
@@ -91,4 +91,12 @@ nav {
     .hamburger {
         display: block;
     }
+}
+
+.pages-container {
+    height: 100vh;
+    background-color: #b8dbb8;
+    display: flex;
+    border-radius: 300px 0 900px 0 / 300px 0 900px 0;
+    border-radius: 14% 10% 40% 0% / 26% 0% 87% 0%;
 }

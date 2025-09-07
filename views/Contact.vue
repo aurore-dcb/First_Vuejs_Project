@@ -1,9 +1,9 @@
-<template>
-  <h1>Contact Page</h1>
-</template>
+<script setup>
 
-<script>
-export default {
-  name: 'Contact'
-}
 </script>
+
+<template>
+  <div class="pages-container">
+    <h1>Contact Page</h1>
+  </div>
+</template>

@@ -3,6 +3,8 @@ import App from './App.vue'
 import './assets/style.css'
 import './assets/results.css'
 import './assets/registration.css'
+import './assets/course.css'
+import './assets/home.css'
 import router from './router'
 
 createApp(App).use(router).mount('#app')
