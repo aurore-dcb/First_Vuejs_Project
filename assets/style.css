@@ -100,3 +100,35 @@ nav {
     border-radius: 300px 0 900px 0 / 300px 0 900px 0;
     border-radius: 14% 10% 40% 0% / 26% 0% 87% 0%;
 }
+
+/* Slide vers la gauche (page suivante) */
+.slide-left-enter-active,
+.slide-left-leave-active {
+  transition: all 0.4s ease;
+  position: absolute;
+  width: 100%;
+}
+.slide-left-enter-from {
+  transform: translateX(100%);
+  opacity: 0;
+}
+.slide-left-leave-to {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+/* Slide vers la droite (page précédente) */
+.slide-right-enter-active,
+.slide-right-leave-active {
+  transition: all 0.4s ease;
+  position: absolute;
+  width: 100%;
+}
+.slide-right-enter-from {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+.slide-right-leave-to {
+  transform: translateX(100%);
+  opacity: 0;
+}
